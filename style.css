@@ -30,10 +30,12 @@ nav{
     
     transition: 3s ease-in-out;
 }
+
 .details{
     margin-top: 150px;
     font-family: 'Poppins', sans-serif;
 }
+
 .details h1{
     font-weight: 700;
     font-size: 40px;
@@ -47,10 +49,33 @@ nav{
     color: white;
     border-radius: 40px;
     background:  #E02C6D;
-    ;
+    position: relative;
 }
-.fas{
-    margin-left: 4px;
+.ico{
+    position: absolute;
+    top: 11px;
+    left: 137px;
+    
+}
+.top:hover .button .ico{
+    transition: transform 2s linear   ;
+    animation: ball 2s ease .2s infinite ;
+    
+}
+@keyframes ball {
+    0%{
+        top: 11px;
+        left: 137px;
+    }
+    
+
+    100%{
+        color: black;
+        top: 10px;
+        left: 750px;
+        transform: scale(2);
+        
+    }
 }
 .image{
     
