@@ -26,8 +26,9 @@ nav{
     grid-template-columns: repeat(2, 1fr);
 }
 .top:hover .image img{
-    transform: rotate(360deg) scale(1.1);
-    transition: 3s;
+    transform:scale(1.3) rotate(360deg);
+    
+    transition: 3s ease-in-out;
 }
 .details{
     margin-top: 150px;
