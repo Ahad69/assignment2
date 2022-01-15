@@ -58,8 +58,8 @@ nav{
     
 }
 .top:hover .button .ico{
-    transition: transform 2s linear   ;
-    animation: ball 2s ease .2s infinite ;
+    transition: transform 5s linear   ;
+    animation: ball 2s ease .2s  ;
     
 }
 @keyframes ball {
